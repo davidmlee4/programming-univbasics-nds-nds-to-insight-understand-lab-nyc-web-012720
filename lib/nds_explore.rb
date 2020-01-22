@@ -8,8 +8,9 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-pretty_print_nds(directors_database)
+pretty_print_nds(directors_database) = pp_dd
 
 def print_first_directors_movie_titles
-
+  row_index = 0
+  while row_index <
 end
