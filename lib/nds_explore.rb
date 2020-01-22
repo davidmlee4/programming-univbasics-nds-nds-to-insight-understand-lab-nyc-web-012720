@@ -14,6 +14,10 @@ def print_first_directors_movie_titles
   row_index = 0
   while row_index < pp_dd.count do
     element_index = 0
-    puts pp_dd[row_index][:movies]
+    while element_index < pp.dd[row_index].count do
+      puts pp_dd[row_index][:movies][element_index][:title]
+      element_index += 1
+    end
+    row_index +=1
   end
 end
