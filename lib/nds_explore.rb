@@ -12,5 +12,8 @@ pretty_print_nds(directors_database) = pp_dd
 
 def print_first_directors_movie_titles
   row_index = 0
-  while row_index <
+  while row_index < pp_dd.count do
+    element_index = 0
+    puts pp_dd[row_index][:movies]
+  end
 end
